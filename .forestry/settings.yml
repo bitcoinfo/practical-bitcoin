@@ -34,10 +34,10 @@ build:
   - JEKYLL_ENV=staging
   publish_env:
   - JEKYLL_ENV=production
-  preview_output_directory: _site
+  preview_output_directory: docs
   output_directory: _site
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
-    --port 8080 --host 0.0.0.0 -d _site --baseurl ""
+    --port 8080 --host 0.0.0.0 -d _site --baseurl "practical-bitcoin"
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
