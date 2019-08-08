@@ -3,9 +3,11 @@ title: Codebases, Tools, and How-Tos, for Participating with Bitcoin
 author: Infominer
 email: infominer@protonmail.com
 description: This site will cover all topics related to the practical use of Bitcoin.
-baseurl: "/practical-bitcoin"
+baseurl: practical-bitcoin
 url: https://btc-nerds.xyz
 defaults:
+- scope: ''
+  values: ''
 - scope:
     path: ''
   values:
